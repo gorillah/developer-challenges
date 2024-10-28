@@ -2,9 +2,9 @@
 
 [< back to README](./README.md)
 
-In order to contribute to the enhancement of our Corporate Channels and asset condition monitoring platform, DynaPredict, we present you with the following challenge: 
+In order to contribute to the enhancement of our Corporate Channels and asset condition monitoring platform, DynaPredict, we present you with the following challenge:
 
-Build a robust and intuitive application developed using React and TypeScript. It should include authentication, machine management, sensor management, and general user-friendly features. 
+Build a robust and intuitive application developed using React and TypeScript. It should include authentication, machine management, sensor management, and general user-friendly features.
 
 While going through the challenge, you should be able to handle ambiguous situations, adhere to best practices in front-end development, and demonstrate excellent problem-solving skills. Effective communication through well-documented code, code quality, readability, and maintainability will also be evaluated.
 
@@ -58,7 +58,7 @@ You can use the following user stories as a guide to implement the application f
 1. [ ] Create reusable components.
 1. [ ] The code is well-organized and documented.
 1. [ ] The application layout is responsive.
-The choice of remaining tools is at your discretion.
+       The choice of remaining tools is at your discretion.
 
 6 - Bonus
 
@@ -82,10 +82,9 @@ The choice of remaining tools is at your discretion.
 
 </br>
 
-
 ## Evaluation Criteria
 
-The items listed above will have different weights in the evaluation process. Each one of them will be evaluated as "Not Implemented", "Implemented with Issues", "Implemented", or "Implemented with Excellence". Use your judgement to prioritize the requirements you will implement in the time you have available. 
+The items listed above will have different weights in the evaluation process. Each one of them will be evaluated as "Not Implemented", "Implemented with Issues", "Implemented", or "Implemented with Excellence". Use your judgement to prioritize the requirements you will implement in the time you have available.
 
 In general we will be looking for the following:
 
@@ -107,25 +106,25 @@ In general we will be looking for the following:
 ## Frequently Asked Questions
 
 1. Can I use create-react-app to complete the challenge?
-  **No, create-react-app is not acceptable for this challenge.**
-  
+   **No, create-react-app is not acceptable for this challenge.**
+
 1. Can I use Next.js or Vite to complete the challenge?
-  **Yes, you should use of either Next.js or Vite for this challenge.**
+   **Yes, you should use of either Next.js or Vite for this challenge.**
 
 1. Is it necessary to fork the project?
-  **Yes, this allows us to see how much time you spent on the challenge.**
+   **Yes, this allows us to see how much time you spent on the challenge.**
 
 1. Can I use Material UI in the project?
-  **Yes, the use of Material UI 5 is mandatory for this challenge.**
+   **Yes, the use of Material UI 5 is mandatory for this challenge.**
 
 1. If I have more questions, who can I contact?
-  **Please reach out to [Calil](https://www.linkedin.com/in/calil-amaral-84005b67/) (Development Coordinator).**
+   **Please reach out to [Calil](https://www.linkedin.com/in/calil-amaral-84005b67/) (Development Coordinator).**
 
 1. Can I build my own back-end API?
-  **Yes, you can build your own back-end API, but it needs to use NodeJS.**
+   **Yes, you can build your own back-end API, but it needs to use NodeJS.**
 
 1. Can I use any NodeJS framework to the back-end?
-  **Yes, but we encourage you to use Nest.js. We are currently migrating away from pure ExpressJS and from Adonis.**
+   **Yes, but we encourage you to use Nest.js. We are currently migrating away from pure ExpressJS and from Adonis.**
 
 </br>
 
