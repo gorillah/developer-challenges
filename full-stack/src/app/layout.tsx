@@ -3,7 +3,9 @@ import { AppRouterCacheProvider } from "@mui/material-nextjs/v14-appRouter";
 import { Roboto } from "next/font/google";
 import { ThemeProvider } from "@mui/material/styles";
 import theme from "../theme";
+import { ReactQueryClientProvider } from "@/components/react-query-provider";
 import "./globals.css";
+import { Toaster } from "react-hot-toast";
 
 const roboto = Roboto({
   weight: ["300", "400", "500", "700"],
@@ -23,12 +25,17 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={roboto.variable}>
-        <AppRouterCacheProvider>
-          <ThemeProvider theme={theme}>{children}</ThemeProvider>
-        </AppRouterCacheProvider>
-      </body>
-    </html>
+    <ReactQueryClientProvider>
+      <html lang="en">
+        <body className={roboto.variable}>
+          <AppRouterCacheProvider>
+            <ThemeProvider theme={theme}>
+              <Toaster position="bottom-center" />
+              {children}
+            </ThemeProvider>
+          </AppRouterCacheProvider>
+        </body>
+      </html>
+    </ReactQueryClientProvider>
   );
 }

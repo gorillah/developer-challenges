@@ -3,11 +3,12 @@
 import { createTheme } from "@mui/material/styles";
 
 const theme = createTheme({
-  palette: {
-    mode: "light",
-  },
-  typography: {
-    fontFamily: "var(--font-roboto)",
+  components: {
+    MuiStack: {
+      defaultProps: {
+        useFlexGap: true,
+      },
+    },
   },
 });
 
