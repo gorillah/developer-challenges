@@ -19,7 +19,6 @@ import { styled } from "@mui/material/styles";
 import ForgotPassword from "./ForgotPassword";
 import { GoogleIcon, FacebookIcon, SitemarkIcon } from "./CustomIcons";
 import { login } from "@/actions/auth";
-import { redirect } from "next/navigation";
 import { useMutation } from "@tanstack/react-query";
 
 const Card = styled(MuiCard)(({ theme }) => ({
@@ -87,7 +86,7 @@ export default function SignIn() {
       await login(email.value, password.value);
     },
     onSuccess: () => {
-      redirect("/dashboard");
+      window.location.href = "/dashboard";
     },
     onError: (error) => {
       toast.error(error.message);

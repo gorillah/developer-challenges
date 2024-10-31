@@ -6,6 +6,7 @@ import theme from "../theme";
 import { ReactQueryClientProvider } from "@/components/react-query-provider";
 import "./globals.css";
 import { Toaster } from "react-hot-toast";
+import StoreProvider from "@/components/store-provider";
 
 const roboto = Roboto({
   weight: ["300", "400", "500", "700"],
@@ -31,7 +32,7 @@ export default function RootLayout({
           <AppRouterCacheProvider>
             <ThemeProvider theme={theme}>
               <Toaster position="bottom-center" />
-              {children}
+              <StoreProvider>{children}</StoreProvider>
             </ThemeProvider>
           </AppRouterCacheProvider>
         </body>
